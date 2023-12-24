@@ -283,23 +283,60 @@ footer {
   line-height: 32px;
   position: relative;
 }
-.products__card-description--group::before{
+
+.products__card-description--group::before {
   content: '';
   display: block;
   position: absolute;
   width: 5px;
   height: 5px;
-  background-color:#8C8C8C;
+  background-color: #8C8C8C;
   border-radius: 50%;
   left: -14px;
   top: 14px;
 
 }
 
+.products__card-description--name {
+  margin: 0;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.products__card-description-text {
+  margin: 0;
+  color: #8C8C8C;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 237px;
+  margin-bottom: 24px;
+}
+
+.btn {
+  padding: 8px 36px;
+  color: var(--Gray-gray-1, #FFF);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 30px;
+}
+
+.products__card-description-control--price {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
 @media (max-width: 990px) {
-  .banner-items{
+  .banner-items {
     background-image: none;
   }
+
   .bunner__items-title {
     max-width: 100%;
   }
