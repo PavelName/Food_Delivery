@@ -132,9 +132,10 @@ footer {
 }
 
 .banner-items {
-  background-image: url(./images/Banner/banner.jpg);
+  background-image: url(./images/Banner/bunner.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-color: #FFF1B8;
   background-position: center right;
   padding: 68px;
   border-radius: 10px;
@@ -164,8 +165,6 @@ footer {
   flex-wrap: wrap;
   gap: 24px;
 }
-
-.products {}
 
 .products__headrer-title {
   color: #000;
@@ -298,6 +297,9 @@ footer {
 }
 
 @media (max-width: 990px) {
+  .banner-items{
+    background-image: none;
+  }
   .bunner__items-title {
     max-width: 100%;
   }
