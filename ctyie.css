@@ -318,12 +318,15 @@ footer {
 
 .btn {
   padding: 8px 36px;
-  color: var(--Gray-gray-1, #FFF);
+  background-color: #FFF;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   margin-right: 30px;
+}
+.btn-primary{
+  background-color: #1890FF;
 }
 
 .products__card-description-control--price {
