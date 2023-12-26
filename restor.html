@@ -16,9 +16,9 @@
     <header class="header">
       <div class="container">
         <div class="header__box">
-          <div class="header__logo logo">
+          <a href="./index.html" class="header__logo logo">
             <img src="./images/logo.png" alt="logo">
-          </div>
+          </a>
           <div class="header_controls">
             <button class="btn btn-primary">
               <img src="./images/icons/user.png" alt="user">
@@ -41,9 +41,9 @@
           <div class="products__wrapper">
             <!-- card-1 -->
             <div class="products__card">
-              <div class="products__card-image">
+              <a href="./index.html" class="products__card-image">
                 <img src="./images/Products/pollStand.jpg" alt="pizza">
-              </div>
+              </a>
 
               <div class="products__card-description">
                 <div class="products__card-description-row">
@@ -190,10 +190,79 @@
 
       </section>
     </main>
+    <div class="card-modal__overlay">
+      <div class="card-modal">
+        <div class="card-modal__header">
+          <h2 class="card-modal__header--title">Корзина</h2>
+          <span class="card-modal__header--close">
+            <img src="./images/icons/close.svg" alt="">
+          </span>
+        </div>
+
+        <div class="card-modal__body">
+          <div class="card-item">
+            <p class="card-item__title">
+              Ролл угорь стандарт
+            </p>
+            <div class="card-item__controls">
+              <div class="card-item__controls__price">
+                250 ₽
+              </div>
+              <button class="btn btn-outline">-</button>
+              <div class="card-item__controls__count">1</div>
+              <button class="btn btn-outline">+</button>
+            </div>
+          </div>
+
+          <div class="card-item">
+            <p class="card-item__title">
+              Ролл угорь стандарт
+            </p>
+            <div class="card-item__controls">
+              <div class="card-item__controls__price">
+                250 ₽
+              </div>
+              <button class="btn btn-outline">-</button>
+              <div class="card-item__controls__count">1</div>
+              <button class="btn btn-outline">+</button>
+            </div>
+          </div>
+
+          <div class="card-item">
+            <p class="card-item__title">
+              Ролл угорь стандарт
+            </p>
+            <div class="card-item__controls">
+              <div class="card-item__controls__price">
+                250 ₽
+              </div>
+              <button class="btn btn-outline">-</button>
+              <div class="card-item__controls__count">1</div>
+              <button class="btn btn-outline">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-modal__footer">
+          <div class="card-modal__footer--price">
+            1250 ₽
+          </div>
+          <div class="card-modal__footer--controlos">
+            <button class="btn btn-primary">
+              Оформить заказ
+            </button>
+            <button class="btn modal__footer-outline">
+              Отмена
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="container">
         <div class="footer__box">
-          <div class="footer__logo logo"> <img src="./images/logo.png" alt="logo"></div>
+          <a href="./index.html" class="footer__logo logo"> <img src="./images/logo.png" alt="logo"></a>
           <div class="footer__nav">
             <ul>
               <li>Ресторанам </li>
@@ -211,6 +280,7 @@
       </div>
     </footer>
   </div>
+  <script src="./main.js"></script>
 </body>
 
 </html>
