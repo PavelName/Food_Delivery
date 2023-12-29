@@ -30,7 +30,7 @@ const restsFunc = () => {
   const restArray = [
     {
       id: 0,
-      title: 'Пицца плюс',
+      title: 'Пицца плюс6',
       time: 50,
       raiting: 4.5,
       price: 900,
